@@ -1,0 +1,56 @@
+header{
+    background-color: rgb(25, 150, 133);
+    color:rgb(5, 5, 22);
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+   
+    margin: 10px auto;
+    grid-gap: 10px;
+    
+}
+nav{
+    background-color: rgb(24, 59, 59);
+    color: rgb(252, 249, 249);
+}
+section{
+    background-color: rgb(15, 146, 135);
+    color:rgb(253, 252, 251);
+    grid-column: 1/5;
+    
+   
+}
+aside{
+
+background-color: rgb(242, 247, 248);
+color:rgb(255, 248, 248)
+
+}
+
+footer{
+    background-color: rgb(24, 59, 59);
+    color: rgb(250, 249, 249);
+}
+
+iframe{  
+    
+  width: 500px;
+  height: 600px;
+  
+  border: 5px solid rgb(11, 223, 238);
+  /*position: auto;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

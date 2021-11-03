@@ -1,0 +1,37 @@
+
+
+h1{
+    background-color: rgb(76, 192, 153);
+    color: rgb(241, 247, 244);
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(76, 159, 192);
+    color: rgb(3, 8, 6);
+    text-align: center;
+}
+
+h4{
+    background-color: rgb(66, 110, 96);
+    color: rgb(241, 247, 244);
+    text-align: center;
+}
+
+.link{
+    background-color: rgb(32, 125, 153);
+    color: rgb(202, 206, 5);
+    text-align: center;
+}
+
+p{
+    background-color: rgb(22, 71, 55);
+    color: rgb(242, 247, 248);
+    text-align: center;
+}
+
+#tit {
+    background-color: rgb(249, 250, 252);
+    color: rgb(177, 134, 15);
+    text-align: center;
+}
