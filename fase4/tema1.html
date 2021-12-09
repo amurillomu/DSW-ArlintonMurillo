@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArlintonMurillo_12021935</title>
+    <link rel="stylesheet" href="css/stilos.css">
+    <style>
+       
+
+    </style>
+</head>
+
+<body>
+    <!--Encabezados de la pagina-->
+
+    <header cless="header">
+        <h1> Etiquetas Básicas de HTML, atributos y valores </h1>
+    </header>
+
+
+
+    <!-- Lista ordenada -->
+    <ol class="ol">
+        <li> listas </li>
+        <li> ordenada</li>
+    </ol>
+
+    <!--Lista no ordenada-->
+    <hr>
+    <nav class="nav">
+
+        <ul>
+            <li > <strong> Inicio </strong> </li>
+            <li> <strong> Temas </strong>
+                <ul>
+                    <li> <a href="tema1.html">Tema 1 </a> </li>
+                    <li> <a href="tema2.html">Tema 2 </a> </li>
+                </ul>
+            </li>
+            <li> <strong> Recursos Digitales </strong>
+                <ul>
+                    <li> <a href="recursos1.html">Recursos 1 </a> </li>
+                    <li> <a href="recursos2.html">Recursos 2 </a> </li>
+                </ul>
+            </li>
+            <li> <strong>Aprendizaje </strong>
+                <ul>
+                    li> <a href="evaluacion1.html"> Evaluacion1</a> </li>
+                    <li> <a href="evaluacion2.html"> Evaluacion2</a> </li>
+                </ul>
+            </li>
+
+
+        </ul>
+
+    </nav>
+    <hr>
+
+    <!-- parrafo o contenido -->
+    <main class="main">
+        <section class="section">
+            <h3 > Propósito de sitio </h3>
+
+            <p> El propósito del sitio tiene como objetivo el aprendizaje de conocer y de poner en practia, la
+                <strong>Etiquetas</strong> Básicas de HTML, los <strong>atributos</strong> y los <strong>valores
+                </strong>
+            </p>
+            <hr>
+            <article class="article">
+
+                <h3 class="h3"> Etiquetas Básicas de HTML </h3>
+                <p>
+
+                    Hay una serie de etiquetas que son las más usadas para crear cualquier documento HTML, a
+                    continuación las explicamos:
+                </p>
+                      <img src="img/eti.png" alt="Imagen del pie de pagina de Etiqueta">
+                <p> 
+
+                    < html> < /html>
+                    <br>
+                    < head>  < /head>
+                    <br>
+                    < title> < /title>
+                    <br>
+                    < body>  < /body>
+                    <br>
+                    < h1> < /h1> Ecabezado nivel 1
+                    <br>
+                    < h2 < /h2> Encabezado nivel 2 
+                    <br>
+                   NOTA; Los encabezados van desde el nivel 1 (h1) hasta el nivel 6 (h6)
+                   <br>
+                   <br>
+
+                    < p> < /p> Parrafo
+                    <br>
+                    < br> Salto de linea, espacion entre lineas de texto. (No lleva etiqueta de cierre)
+                    <br>
+                    < b> < /b> Negrita
+                    <br>
+                    < i> < /i> Cursiva
+                    <br>
+                    < u> < /u> Subrayado
+                    <br>
+                    < table> < /table> Indica el pricipio de y el final una tabla
+                    <br>
+                    < tr> < /tr> Indica el principio y el final de una fila
+                    <br>
+                    < td> < /td> indica el principio y el final de una celda
+                    <br>
+                    < img> Etiqueta simple, no lleva etiqueta de cierre
+                    <br>
+                    < strong> < /strong>  Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.
+                    <p> Razquin Zazpe, P. (2011). Lenguaje HTML. </p>
+
+                </p>
+                <hr>
+                <p>
+                    <h3 class="h3" > Atributos y valor</h3>
+                    <img src="img/atr.png" alt="Imagen de cabezado de atributos y valor">
+                    <p>
+                      <b> Qué es un atributo </b> 
+                      <br>
+                      Cualquier etiqueta XHTML puede contener uno o más atributos, separados por espacios, que permiten especificar la etiqueta. El código fuente tiene el siguiente aspecto:
+                      <br>
+
+                      < etiqueta atributo="valor-de-atributo">
+                      <br>
+                      < etiqueta atributo1="valor-de-atributo-1" atributo2="valor-de-atributo-2" >
+                      <br>
+
+                      En el XHTML los atributos tienen que estar siempre definidos (mediante el signo igual "=") y el valor del atributo tiene que estar entre comillas dobles o simples.
+                      <br>
+
+                      Existen una serie de atributos comunes a todas las etiquetas (salvo la etiqueta < html>) y algunas etiquetas tienen unos atributos específicos. En esta lección se comentan los atributos comunes; los atributos específicos se comentan en las lecciones dedicadas a las etiquetas correspondientes (imágenes, tablas, etc).
+                      <br>
+
+                      <strong> Atributos comunes  </strong>
+                      <br>
+                      <br>
+
+                        <b>Atributo class</b> <br>
+                        El atributo class permite definir clases de elementos. Dada su importancia, se explica en la lección sobre Clases.
+
+                        Las hojas de estilo pueden hacer referencia a los elementos con atributo class, como se comenta en la lección sobre Selectores.
+                        <br>
+                        <br>
+                        <b> Atributo id</b> <br>
+
+                        El atributo id permite identificar de forma unívoca un elemento en un documento. Por ello, en una página web no puede haber dos elementos con el mismo valor en el atributo id. Además, un elemento sólo puede tener un atributo id, es decir, el atributo id no puede contener espacios en blanco.
+                        <br>
+                        En HTML 5 el atributo id puede empezar y contener cualquier carácter (salvo espacios en blanco). Además, todos los elementos pueden tener el atributo id.
+                       <br>
+                       <br>
+                       <b>Atributo style</b>
+                        El atributo style permite definir propiedades de estilo a un elemento determinado.
+                        <br>
+                        <br>
+                         <b> Atributo title</b> <br>
+                        
+                        El atributo title contiene el texto que se muestra en forma de "tip" (cuadrito amarillo que aparece cuando se sitúa el ratón encima del elemento).
+                        <br>
+                        <p> Razquin Zazpe, P. (2011). Lenguaje HTML.</p>
+                        <p> Recio García, J. A. (2016). HTML5, CSS3  </p>
+                        <p> Terán Anciano, J. (2016). Manual de Introducción al lenguaje HTML</p>
+
+                    </p>
+<hr>
+
+
+
+                </p>
+                <h3 class="h3">Diseño mockup </h3>
+
+                <img class="img"src="img/moc.PNG" alt="imagen ">
+
+                <hr>
+
+
+            </article>
+
+        </section>
+
+        <aside class="aside">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+
+
+
+    </main>
+  <footer class="footer"> 
+      <h3 >Datos personales</h3>
+      <p> Correo: amurillomu@unadvirtual.edu.co   </p>
+      <p> Skype: arlin1983 </p>
+      <p> fecha de creacion: 27 de Septiembre de 2021</p>
+     
+  </footer>
+
+
+
+</body>
+
+</html>
