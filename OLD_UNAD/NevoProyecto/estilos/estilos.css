@@ -1,0 +1,190 @@
+
+*{ 
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.box{
+
+    width: 500px;
+    height: 300px;
+    background-color: steelblue;
+    animation: color 2s infinite alternate;
+}
+
+
+@keyframes color {
+    to{
+        background-color: teal;
+    }
+   
+}
+
+body{
+
+
+
+
+}
+
+header{
+    width: 100%;
+    background-color: dimgray;
+    color: ghostwhite;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+
+}
+
+header img{
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 1%;
+    border-radius: 100%;
+}
+
+
+h1{
+    text-align: center;
+    font-family:Gotham, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+article{
+    padding: 40px 0 20px 0;
+    border-bottom:slategray  lategray dotted 2px;
+  
+}
+
+
+
+article h2{
+    float: left;
+    border-bottom: solid palegreen ;
+    padding: 5px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    font-size: 1em;
+
+}
+
+article h3{
+    font-size: 1em;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 6.2em;
+    
+
+
+}
+
+article p, article ul {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    color: black;
+   
+    margin-left: 20%;
+}
+
+article ul li{
+    font-size: 1em;
+    list-style: square;
+}
+
+
+section{
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+
+
+footer{
+   
+    margin-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    background-color:slategray;
+    color: floralwhite;
+
+
+
+    
+}
+
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+
+footer a:link, footer a:visited{
+    color: floralwhite;
+
+
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
